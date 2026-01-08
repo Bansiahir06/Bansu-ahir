@@ -1,17 +1,26 @@
+let a = 300
 
-let a =300
-if(true){
-    let a =10
-    const b =20
-    console.log("INNER:",a)
+if (true) {
+    let a = 10
+    const b = 20
+    console.log("INNER:", a)
+}
+
+if (true) {
+    const username = "hitesh"
+    if (username === "hitesh") {
+        const website = "youtube"
+        console.log(username + website)
+    }
+}
+//intersting//
+addone(5)
+function addone(num){
+    return num+1
 
 }
-// for (let i = 0; i < array.length; i++) {
-//     const element = array[i];
-    
-// }
 
-
-console.log(a);
-// console.log(b)
-// console.log(c)
+const addtwo=function(num){
+    return num +2
+}
+addtwo(5)
